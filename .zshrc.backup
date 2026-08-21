@@ -68,3 +68,5 @@ preexec() {
 }
 
 alias open="xdg-open"
+
+bindkey '^[[3~' delete-char
